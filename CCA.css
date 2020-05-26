@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+html * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #F2EEEB;
+}
+
+.Cabeçalho {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  padding: 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-top: 3px ridge #cccc;
+  border-bottom: 3px ridge #cccc;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.Menu-01 {
+  text-align: left;
+}
+
+.Menu-02 {
+  color: black;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 26px;
+}
+
+nav a:hover {
+  padding: 13px;
+  background-color: #D94814;
+  color: white;
+  font-size: 150%;
+  border-radius: 20px;
+  transition: 1s;
+}
+
+.Main-01 {
+  padding: 190px 180px;
+  background-image: url("Foto-PI.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.Main-01P {
+  padding: 225px 200px;
+  background-image: url("Foto-PI2.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+.Main-01P2 {
+  padding: 225px 200px;
+  background-image: url("Foto-PI1.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+.Main-01P3 {
+  padding: 225px 200px;
+  background-image: url("Foto-PI4.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+img {
+  max-width: 272px;
+  max-height: 351px;
+  border-radius: 6px;
+}
+
+.Main-02 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 60px;
+  margin-top: 60px;
+  grid-gap: 40px;
+}
+
+.Main-02P {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 300px;
+  margin-top: 60px;
+  margin-bottom: 150px;
+  grid-gap: 40px;
+  text-align: justify;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.Main-02P h1 {
+  border-bottom: 1px ridge #cccc;
+}
+
+.Main-02 section:hover {
+  background-color: #F2811D;
+  padding: 15px;
+  box-shadow: 3px 3px 3px #D94814;
+  font-size: 125%;
+  transition: 1s;
+}
+
+.Grade {
+  padding: 30px;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 21px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+
+.Rodapé {
+  background-color: #F2811D;
+  padding: 30px;
+  margin-top: 40px;
+  text-align: center;
+  font-size: 26px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
